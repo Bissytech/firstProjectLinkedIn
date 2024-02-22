@@ -3,6 +3,9 @@
    padding: 0;
    font-family: sans-serif;
    }
+   .welcome h1{
+    font-weight: 100;
+   }
 .head img{
     height: 75px;
     width: 150px;
@@ -10,6 +13,10 @@
 .singleicon{
     display: block;
     align-items: center;
+    color: rgb(102,102,102);
+}
+.singleicon:hover{
+  color: black;
 }
 .allicons{
     display: flex;
@@ -35,6 +42,18 @@
     border-radius: 100px;
     padding-top: 5px;
     color: rgb(51,128,204);
+}
+.join:hover{
+  width: 150px;
+    /* border: 1px solid rgb(51,128,204); */
+    text-align: center;
+    height: 40px;
+    border-radius: 100px;
+    padding-top: 5px;
+  background-color: rgb(223, 221, 221);
+}
+.sign:hover{
+  background-color: rgb(193, 223, 253);
 }
  .actualnav2{
    display: flex;
@@ -117,9 +136,23 @@
  .sign1:hover{
    background-color: blue;
  }
+ .vl{
+  /* margin-top: -20px; */
+  border-left: 1px solid lightgrey;
+  height: 50px;
+ }
  .or{
-   margin-left: 190px;
-   padding-top: 25px;
+font-size: 16px;
+display: flex;
+align-items: center;
+text-align: center;
+ }
+ .or::before, .or::after{
+  flex: 2px;
+  content: '';
+  padding:0.1px;
+  background-color: gray;
+  margin: 15px;
  }
  .par{
    width: 400px;
@@ -365,4 +398,65 @@ color: rgb(178,64,32);
   background-color: rgb(28,113,199);
   color: white;
   border-radius: 25px;
+}
+.naveleven{
+  background-color: rgb(243,242,240);
+  padding-top: 100px;
+}
+.footer li{
+  display: block;
+}
+.footer li:hover{
+  color:rgb(28,113,199);
+  text-decoration: underline;
+ 
+}
+.nav11{
+display: flex;
+justify-content: space-around;
+
+}
+.nav11image img{
+  height: 50px;
+  width: 100px;
+
+}
+.footer h3{
+  font-size: 16px;
+  font-weight: 700;
+}
+.lastli{
+  display: flex;
+  align-items: center;
+  position: relative;
+  text-align: right;
+}
+.thelis li{
+  display:inline-flex;
+  margin-left: 20px;
+  font-size: 12px;
+}
+.thelis{
+text-align: center;
+display: flex;
+align-items: center;
+margin-left: 10px;
+}
+.lastnav img{
+  height: 60px;
+  width: 80px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+
+}
+.lastnav{
+  display: flex;
+ 
+}
+.thelis li:hover{
+  color:rgb(28,113,199);
+  text-decoration: underline;
+}
+.lastnav span{
+  font-size: 12px;
 }
