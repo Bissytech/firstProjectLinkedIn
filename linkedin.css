@@ -1,0 +1,368 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: sans-serif;
+   }
+.head img{
+    height: 75px;
+    width: 150px;
+}
+.singleicon{
+    display: block;
+    align-items: center;
+}
+.allicons{
+    display: flex;
+    text-align: center;
+    gap: 20px;
+}
+.header{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.all{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.sign{
+    width: 150px;
+    border: 1px solid rgb(51,128,204);
+    text-align: center;
+    height: 40px;
+    border-radius: 100px;
+    padding-top: 5px;
+    color: rgb(51,128,204);
+}
+ .actualnav2{
+   display: flex;
+  overflow-x: hidden;
+ }
+
+ .image1 img{
+    height: 600px;
+    width:700px; 
+    margin-top: 100px;
+ }
+ .nav2a{
+   margin-left: 80px;
+   width: 700px;
+   padding-right: 250px;
+ }
+ .welcome h1{
+    color: RGB(178, 64, 32);
+    font-size: 50px;
+    padding-top: 50px;
+    
+ }
+ .inp input{
+    border: 1px solid black;
+    width: 400px;
+    height: 50px;
+ }
+ 
+ .passspan{
+    border: 1px solid black;
+    width: 400px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    
+ }
+ .passspan input{
+    width: 80%;
+ }
+ .passspan span{
+    margin-left: 20px;
+    color: rgb(28,113,199);
+ }
+  label{
+    display: inline-block;
+ }
+ .mailinp{
+    border: 1px solid black;
+    width: 400px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+   
+ }
+ .passspan:hover, .mailinp:hover{
+    border: 3px solid black;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ }
+ .fp{
+   color: rgb(138,79,207);
+   text-decoration: none;
+ }
+ .forgotpassword{
+   display: grid;
+   gap: 25px;
+   padding-top: 25px;
+ }
+ .sign1{
+    width: 400px;
+    height: 50px;
+    font-size: 17px;
+    border-radius: 25px;
+    text-align: center;
+    background-color: rgb(28,113,199);
+   padding-top: 10px ;
+   text-decoration: none;
+   color: white;
+ }
+ .sign1:hover{
+   background-color: blue;
+ }
+ .or{
+   margin-left: 190px;
+   padding-top: 25px;
+ }
+ .par{
+   width: 400px;
+   font-size: 12px;
+ }
+ .par a{
+   text-decoration: none;
+ }
+ .swg, .ntl{
+   border: 1px solid black;
+   width: 400px;
+   height: 50px;
+   font-size: 17px;
+    border-radius: 25px;
+    text-align: center;
+   padding-top: 10px ;
+   text-decoration: none;
+   color: black;
+ }
+ .swgntl{
+   display: grid;
+   gap: 20px;
+ }
+ .swg:hover, .ntl:hover{
+   background-color: rgba(240, 233, 233, 0.657);
+   border: 2px solid black;
+ }
+ .amultiple a, .bmultiple a{
+  border: 1px solid black;
+  width: fit-content;
+  padding: 15px;
+  margin: 2px;
+  border-radius: 30px;
+  height: 50px;
+  gap: 2px;
+
+ }
+ .amultiple, .bmultiple, .cmultiple{
+  display: flex;
+  flex-wrap: wrap;
+ }
+ .cmultiple{
+  margin-right: 200px;
+  
+ }
+ .thenav3{
+  display: flex;
+  padding-top: 100px;
+ }
+ .nav4{
+  padding-top: 50px;
+ }
+ .nav5{
+  margin-top: 150px;
+  /* display: flex; */
+  background-color: rgb(241,236,229);
+  height: 300px;
+ }
+ .navfive{
+  margin-top: 90px;
+  display: flex;
+ }
+ .nav6{
+  height: 100vh;
+  width: 100%;
+ }
+ .navsix{
+  display: flex;
+  padding-top: 100px;
+ }
+ .nav5 h2{
+  font-size: 45px;
+ }
+ .pj{
+  width: 350px;
+  margin-left: 80px;
+  color: rgb(187,88,60);
+ }
+ .post a{
+  border: 1px solid black;
+  width: fit-content;
+  padding: 20px; 
+  border-radius: 30px;
+  margin-left: 220px;
+ }
+ .post{
+  margin-top: 70px;
+ }
+ .bmultiple, .cmultiple{
+  margin-left: 200px;
+ }
+ .amultiple a:hover, .bmultiple a:hover, .cmultiple a:hover {
+  background-color: rgba(111, 107, 107, 0.2);
+ }
+ .showall{
+  color: rgb(28,113,199);
+  border: 1px solid rgb(28,113,199);
+  text-decoration: none;
+ }
+ .showall:hover{
+  background-color: rgb(28,113,199);
+ }
+ .headp h2, .head5 h2{
+  font-size: 45px;
+ }
+ .head5 h2{
+  width: 100%;
+  /* background-color: brown; */
+ }
+ .head5{
+  width: 120%;
+  background-color: white;
+ }
+ 
+.cmultiple a{
+  border: 1px solid black;
+  width: fit-content;
+  padding: 15px;
+  margin: 2px;
+  border-radius: 30px;
+  height: 50px;
+  gap: 2px;
+}
+ .headp p, .head5 p{
+  font-size: 20px;
+ }
+ .headp, .head5{
+  margin: 0px 80px  ;
+  height: 100px;
+ }
+ .c1 h2{
+  width: 500px;
+  font-size: 40px;
+  color: rgb(179,67,35);
+ }
+ .c1 p{
+  width: 500px;
+  font-size: 30px;
+  font-weight: lighter;
+ }
+ .car1{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+ }
+ .carousel-item{
+  background-color: rgba(111, 107, 107, 0.2);
+  height: 600px;
+  padding-top: 100px;
+ }
+ .classimg{
+  width: 400px;
+ }
+ .box1 img, .box2 img{
+  width: 400px;
+  padding: 50px;
+ }
+ .box1 a, .box2 a{
+border: 1px solid black;
+width: fit-content;
+padding: 20px;
+border-radius: 30px;
+ }
+ .box1, .box2{
+  width: 400px;
+  
+ }
+ .box1 h2, .box2 h2{
+  padding-bottom: 50px;
+  font-size: 50px;
+ }
+ .boxone, .boxtwo{
+margin-left: 35px;
+ }
+ .nav8{
+  display: flex;
+  justify-content: space-around;
+ }
+ .boxone a:hover{
+background-color: rgba(111, 107, 107, 0.2);;
+ }
+.fspan{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+  background-color: rgb(234,230,223);
+  margin-bottom: 20px;
+ 
+}
+.fspan a{
+  padding: 10px 50px 10px 20px;
+  font-size: 20px;
+  gap: 20px;
+  
+}
+.h1andp h2{
+font-size: 40px;
+color: rgb(178,64,32);
+}
+.h1andp p{
+  font-size: 35px;
+}
+.containwords{
+  /* width: 50%; */
+  background-color: rgb(243,242,240);
+  padding: 100px 100px 40px 80px;
+}
+.nav9{
+  margin-top: 100px;
+}
+.navnine{
+  display: flex;
+  overflow: hidden;
+  
+}
+.navnine img{
+  width: 800px;
+  height: 700px;
+  margin-left: 100px;
+}
+.navten{
+  background-image: url(background2.jfif);
+  height: 500px;
+  margin-bottom:30px;
+  padding-left: 50px;
+  background-size: contain;
+  /* background-repeat: no-repeat; */
+}
+.navX{
+  background-image:url(background1.jfif);
+  height: 300px;
+  margin-bottom: 40px;
+}
+.navten h2{
+  font-size: 50px;
+  color: black;
+  padding-bottom: 20px;
+}
+.navten a{
+  width: fit-content;
+  padding: 20px;
+  background-color: rgb(28,113,199);
+  color: white;
+  border-radius: 25px;
+}
