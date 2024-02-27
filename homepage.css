@@ -135,13 +135,13 @@ body {
 .column3 {
 
     height: 500px;
-    background-color: white;
+    
     border-radius: 15px;
     position: relative;
 
 }
 .column3 img{
-    position: absolute;
+    /* position: absolute; */
     left: 0;
     border-radius: 15px 15px 0 0;
     width: 100%;
@@ -153,6 +153,25 @@ body {
     border-radius: 100%;
     
 }
+.likefooter a, .corporation span{
+    font-size: 12px;
+  
+    margin-left: 5px;
+    color: rgb(126,125,122);
+    
+
+}
+.corporation img{
+    height: 60px;
+    width: 75px;
+                                                                                                                                                                                                                                        ;
+}
+.likefooter{
+    margin-top: 10px;
+    width: 200px;
+    text-align: center;
+    margin-left: 20px;
+}
 .mypp{
     padding-top: 20px;
 }
@@ -162,6 +181,9 @@ body {
 }
 .inputicons{
     margin-right: 100px;
+}
+.corporation{
+    text-align: center;
 }
 .column2 input{
     border: 1px solid black;
