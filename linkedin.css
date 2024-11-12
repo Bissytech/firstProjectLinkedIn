@@ -33,7 +33,11 @@
     align-items: center;
     gap: 20px;
 }
-
+.all2{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
 .sign{
     width: 150px;
     border: 1px solid rgb(51,128,204);
@@ -50,50 +54,58 @@
     height: 40px;
     border-radius: 100px;
     padding-top: 5px;
-  background-color: rgb(223, 221, 221);
+    
+  background-color: rgb(181, 38, 38);
 }
+
 .sign:hover{
   background-color: rgb(193, 223, 253);
 }
  .actualnav2{
    display: flex;
-  overflow-x: hidden;
+   
  }
 
  .image1 img{
-    height: 600px;
-    width:700px; 
-    margin-top: 100px;
+    height: 130vh;
+    width: 50vw;
+    margin-top:-100px;
  }
  .nav2a{
-   margin-left: 80px;
-   width: 700px;
-   padding-right: 250px;
+   margin-left: 60px;
+   width: 100%;
+   /* padding-right: 250px; */
  }
- .welcome h1{
+ .nav2 h1{
     color: RGB(178, 64, 32);
     font-size: 50px;
-    padding-top: 50px;
+    width: 100%;
+    /* padding-top: 50px; */
+    margin-top: 10px;
     
  }
  .inp input{
-    border: 1px solid black;
-    width: 400px;
-    height: 50px;
+    width:85%;
+    outline: none;
+    border: none;
+    background: none;
+    height: 7vh;
  }
  
  .passspan{
-    border: 1px solid black;
-    width: 400px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    border-radius: 5px;
+  border: 1px solid black;
+  width:80%;
+  height: 7vh;
+  /* display: flex; */
     
  }
  .passspan input{
-    width: 80%;
- }
+  width:80%;
+  outline: none;
+  border: none;
+  background: none;
+  height: 7vh;
+} 
  .passspan span{
     margin-left: 20px;
     color: rgb(28,113,199);
@@ -103,10 +115,10 @@
  }
  .mailinp{
     border: 1px solid black;
-    width: 400px;
-    height: 50px;
-    display: flex;
-    align-items: center;
+    width:80%;
+    height: 7vh;
+    /* display: flex; */
+    /* align-items: center; */
    
  }
  .passspan:hover, .mailinp:hover{
@@ -461,3 +473,220 @@ margin-left: 10px;
 .lastnav span{
   font-size: 12px;
 }
+/* 
+@media (max-width:782px){
+ .all{
+  display: none;
+ } */
+  /* .allicons{
+  display: none;
+} */
+
+ @media (min-width:783px) {
+  .all2{
+   display: none;
+  } 
+    .allicons{
+    display: none;
+  }  
+ }
+ @media (max-width:746px){
+  .actualnav2{
+    flex-direction: column;
+    width: 100%;
+  }
+  .header{
+    width: 100%;
+  }
+  
+  
+  .head img{
+    height: 50px;
+    width: 105px;
+  }
+  .singleicon{
+    font-size: 10px;
+  }
+ .nav2 h1{
+ font-size: 35px;
+ padding: 15px 0px;
+ }
+ .sign1{
+  width: 80%;
+ }
+/* .or{
+  margin: 0px 50px;
+} */
+.or{
+  display: none;
+}
+.par{
+  margin-left: 70px;
+}
+.swg{
+width: 60vw;
+margin-left: 45px;
+}
+.ntl{
+  width:80% ;
+}
+.image1 img{
+height: 40vh;
+margin: 50px 0px 0px 140px;
+}
+.thenav3{
+  flex-direction: column;
+}
+.headp h2{
+  font-size: 25px;
+}
+.headp p{
+  color: rgb(195,194,191);
+  font-size: 15px;
+}
+.amultiple{
+  margin-top: 20px;
+  margin-left: 50px;
+  width: 80vw;
+  
+}
+.bmultiple{
+  margin-top: -150px;
+  margin-left: 50px;
+  width: 80vw;
+
+}
+.find{
+  margin: -120px 0px 0px -30px;
+  
+}
+.navfive{
+  flex-direction: column;
+}
+.pj h2{
+  font-size: 30px;
+  padding-top: 30px;
+}
+.post a{
+  padding: 10px 30px;
+  border-color: blue;
+  color: blue;
+  margin-left: 70px;
+}
+.navsix{
+  flex-direction: column;
+}
+.thenav3{
+  flex-direction: column;
+}
+.head5 h2{
+  font-size: 25px;
+}
+.head5 p{
+  color: rgb(195,194,191);
+  font-size: 15px;
+  width: 65%;
+}
+.cmultiple{
+  margin-top: 20px;
+  margin-left: 50px;
+  width: 80vw;}
+
+  .car1{
+    flex-direction: column-reverse;
+    margin-top: -50px;
+  }
+  .car1 img{
+    height: 40vh;
+    width: 40vw;
+  }
+  .c1 h2{
+    font-size: 30px;
+  }
+  .c1 p{
+    font-size: 25px;
+  }
+   .nav8{
+    display: block;
+  } 
+  .box1 img, .box2 img{
+    height: 40vh;
+    width: 40vw;
+  }
+  .boxone h2, .boxtwo h2{
+    font-size: 35px;
+  }
+  .navnine img{
+display: none;
+  }
+  .h1andp h2{
+    font-size: 35px;
+  }
+  .h1andp p{
+    font-size: 20px;
+  }
+  .containwords{
+    width: 100%;
+  }
+  .fspan{
+    width: 100%;
+  }
+
+  .navX{
+    display: none;
+  }
+  .navten{
+    background-image: none;
+    height: 30vh;
+  }
+  .navten h2{
+    font-size: 35px;
+    margin-top: 50px;
+  }
+  .nav11{
+    display: block;
+  }
+  .nav11image{
+    margin-left: 35px;
+  }
+  .footer li{
+color: rgb(126,126,126);
+font-size: 15px;
+  }
+  
+  .lastnav{
+display: block;
+align-items: left;
+  }
+  .thelis, .lastnav li{
+    display: block;
+    text-align: start;
+    line-height: 20px;
+  }
+  .lastnav span{
+    display: none;
+  }
+  .thelis{
+    margin-top: -20px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ }
